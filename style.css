@@ -12,7 +12,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: #F8F9FA;
    
 }
 .headerLn{
@@ -33,4 +33,113 @@ header{
     color: black;
     text-decoration: none;
     opacity: .75;
+}
+.banner{
+    display: flex;
+    flex-direction: row-reverse;
+   background-color: antiquewhite;
+   align-items: center;
+   justify-content: space-between;
+  background-color: #FEEAE9;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.bannerbody{
+    width: 50%;
+    margin-left: 80px;
+}
+.bannerImg{
+    width: 50%;
+    text-align: right;
+}
+.bannerImg Img{
+    width: 80%;
+}
+.bannerbody h1{
+    font-size: 50px;
+}
+.bannercontent p{
+    font-size: 30px;
+    color: #FF136F;
+    font-weight: 700;
+    margin: 0;
+}
+button{
+    background-color:#FF136F ;
+    color: white;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.catagory{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.catagorycontent{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.catagoryImg img{
+    width: 100%;
+    height: 100%;
+}
+.one{
+    background-color: #FFA500;
+}
+.two{
+    background-color: #DA70D6;
+}
+.three{
+    background-color:#0000FF;
+}
+.shoes{
+    margin-top: 100px;
+}
+.shoesCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+.cardImg img{
+    width: 100%;
+}
+.cardOne{
+    box-shadow: 5px 5px 10px rgb(212, 207, 207);
+    /* background-color: #DA70D6; */
+    padding: 20px;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCEAE8;
+    margin-top: 70px;
+    height: 300px;
+}
+.footerhead h1{
+    margin-bottom: 0;
+
+}
+.footerbody p{
+    margin: 0;
+    opacity: .60;
+    font-size: 20px;
+
+}
+.footerbody input{
+    height: 30px;
+    width: 250px;
+    opacity: .60;
+    border-radius: 10px;
+    padding: 5px;
 }
